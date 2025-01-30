@@ -16,6 +16,10 @@ body {
 
 }
 
+.dark-2 {
+    color: #474747;
+}
+
 .btn-primary {
     border: 0;
     border-radius: 5px;
@@ -31,7 +35,10 @@ nav {
     display: flex;
     justify-content: space-between;
     /* justify-content: space-around; */
+    /* vertically center >*/
     align-items: center;
+    margin: 0 200px;
+
 }
 
 .nav-title {
@@ -54,4 +61,37 @@ nav li {
 nav a {
     text-decoration: none;
     color: #474747;
+}
+
+/* header related styles */
+.header {
+    background-image: url('../images/developer.png'), url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+
+/* banner related styles */
+.banner-greetings {
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.banner-title {
+    font-weight: bold;
+    font-size: 85;
+}
+
+.banner-profile-pic {
+    width: 580px;
+}
+
+.banner-content {
+    max-width: 580px;
+}
+
+.banner {
+    padding: 0 35px 0 200px;
+    justify-content: space-between;
+    /* banner e 2 ta child ase div and img. display flex dile child pasha pashi boshe jabe */
+    display: flex;
 }
