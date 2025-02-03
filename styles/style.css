@@ -164,3 +164,66 @@ main section {
     /* rgba(0,0,0,0,0.06)is not working for me supposed to give a light shadow */
     box-shadow: 0px 6px 50px 0px rgb(187, 186, 186);
 }
+
+/* resume summery related styles */
+.resume-container {
+    display: flex;
+    gap: 24px;
+}
+
+.section-title {
+    text-align: center;
+}
+
+.resume-column-title {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.experience-title {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.experience-subtitle {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.experience-description .experience-subtitle {
+    color: rgb(117, 117, 117);
+}
+
+.resume hr {
+    margin: 30px 5px;
+}
+
+.resume-download-cv {
+    margin-top: 50px;
+}
+
+/* footer styles */
+footer {
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+
+.footer-column {
+    width: 50%;
+}
+
+footer input[type="text"],
+footer input[type="email"],
+footer textarea {
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    border: none;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+}
